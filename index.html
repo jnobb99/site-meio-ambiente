@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natureza Online</title>
+    <style>
+        /* CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Globais */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-image: url(./img/meioambiente.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 300px; /* Altura desejada */
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: left;
+            color: #b3000f;
+            padding-left: 20px;
+        }
+
+        header h1 {
+            font-size: 40px;
+            margin-bottom: 230px;
+            font-family: "Angkor", serif;
+            font-weight: 400;
+            font-style: normal;
+
+        }
+
+        header p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        /* Menu de navegação */
+        nav {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: <weight>;
+            font-style: normal;
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: 10px 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #0056b3;
+        }
+
+        /* Conteúdo principal */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 30px;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .noticia {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+            display: flex; /* Adicionando display flex */
+            align-items: center; /* Centralizando verticalmente */
+        }
+
+        .noticia img {
+            max-width: 300px; /* Definindo largura máxima para a imagem */
+            margin-right: 20px; /* Adicionando margem à direita para separar do texto */
+            border-radius: 30px;
+        }
+
+        .noticia h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+
+        }
+
+        .noticia p {
+            margin-bottom: 15px;
+            font: inherit;
+
+        }
+
+        .noticia a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .noticia a:hover {
+            color: #0056b3;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            width: 100%;
+        }
+
+        footer p {
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: <weight>;
+            font-style: normal;
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: 10px 20px;
+            transition: background-color 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Angkor&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Angkor&display=swap" rel="stylesheet">
+        <h1>NaturezaNews</h1>
+        
+    </header>
+    <nav>
+        <a href="#">HOME</a>
+        <a href="#">NOTÍCIAS</a>
+        <a href="#">ARTIGOS</a>
+        <a href="#">SUSTENTABILIDADE</a>
+        <a href="#">CONTATO</a>
+    </nav>
+    <div class="container">
+        <h2>Últimas Notícias</h2>
+        <div class="noticia">
+            <img src="img/secaamazonas.jpg" alt="Imagem da notícia">
+            <div>
+                <h3>Seca Histórica no Amazonas Revela Impacto Devastador da Mudança Climática</h3>
+                <p><i>24 de outubro de 2024</i></p>
+                <p>No coração da maior floresta tropical do mundo, o Amazonas, uma seca histórica está lançando uma sombra sobre a região, revelando os efeitos alarmantes das mudanças climáticas. O estado, conhecido por sua exuberante biodiversidade e seus rios poderosos, está enfrentando uma crise sem precedentes devido à escassez de chuvas e às altas temperaturas.</p>
+                <a href="#">Leia mais</a>
+            </div>
+        </div>
+
+        <div class="noticia">
+            <img src="img/enchenterionegro.jpg" alt="Imagem da notícia">
+            <div>
+                <h3>Enchente do Rio Negro em 2021: Mudança Climática Amplifica Desastre Ambiental</h3>
+                <p><i>17 de março de 2021</i></p>
+                <p>No início de 2021, o Amazonas enfrentou uma das piores enchentes já registradas em sua história recente, com o Rio Negro atingindo níveis alarmantes de inundação. O desastre, que afetou milhares de pessoas em toda a região, ressalta os impactos devastadores da mudança climática sobre a Amazônia e suas comunidades.</p>
+                <a href="#">Leia mais</a>
+            </div>
+        </div>
+
+        <div class="noticia">
+            <img src="img/mudancaclimatica.jpg" alt="Imagem da notícia">
+            <div>
+                <h3>Impactos das Mudanças Climáticas nas Populações da Amazônia: Um Alerta para a Crise Ambiental</h3>
+                <p><i>Atualizado em 18 de março de 2021</i></p>
+                <p>A Amazônia, vasta e exuberante, é uma das regiões mais afetadas pelas mudanças climáticas em todo o mundo. Um estudo recente, destacado no Blog do Planeta da revista Época, revelou os impactos crescentes que secas e inundações têm sobre as populações ribeirinhas da Amazônia. Essas descobertas ressaltam a urgência de abordar a crise ambiental que está afetando não apenas a região, mas todo o planeta.</p>
+                <a href="#">Leia mais</a>
+            </div>
+        </div>
+        <!-- Noticia, para cada noticia repetir a estrutura -->
+    </div>
+    <footer>
+        <p>&copy; 2024 NaturezaNews. Todos os direitos reservados.</p>
+        <nav>
+            <a href="#">SOBRE</a>
+            <a href="#">SIGA NAS REDES SOCIAIS</a>
+            <a href="#">SEJA APOIADOR</a>
+            <a href="#">FALE CONOSCO</a>
+            <a href="#">POLÍTICA DE PRIVACIDADE</a>
+            <a href="#">MINHA CONTA</a>
+        </nav>
+    </footer>
+
+    <script>
+
+</body>
+</html>
